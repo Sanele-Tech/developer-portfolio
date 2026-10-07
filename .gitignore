@@ -1,0 +1,46 @@
+# Local environment files (keep safe templates in version control)
+.env
+.env.*
+!.env.example
+!.env.template
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+
+# Build output and installed dependencies
+**/target/
+**/build/
+**/dist/
+**/node_modules/
+**/coverage/
+**/.vite/
+*.class
+*.jar
+*.war
+
+# Local runtime data
+backend/uploads/
+uploads/
+*.tmp
+*.temp
+*.swp
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local visual/debug artifacts
+/hero-annotation-check.png
+/mobile-process-check.png
+/style-final-desktop.png
